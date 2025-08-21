@@ -3,11 +3,11 @@
 void main()
 {
     int i, j;
-    for (i = 1; i <= 5; i++) // 2
+    for (i = 65; i <= 69; i++) // 5
     {
-        for (j = i; j <= 5; j++) //
+        for (j = 65; j <= i; j++) //
         {
-            printf("%d ", j);
+            printf("%c ", j); //
         }
         printf("\n");
     }
