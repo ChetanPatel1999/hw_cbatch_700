@@ -3,9 +3,11 @@
 void main()
 {
     int i, j;
-    for (i = 1; i <= 5; i++) //2
+    i = 1;
+    while (i <= 5) // 2
     {
-        for (j = 1; j <= i; j++)//5    // 1 0 1 0
+        j = 1;
+        while (j <= i) // 5    // 1 0 1 0
         {
             if (i % 2 == 0)
             {
@@ -15,7 +17,10 @@ void main()
             {
                 printf("1 ");
             }
+            j++;
         }
+
         printf("\n");
+        i++;
     }
 }
