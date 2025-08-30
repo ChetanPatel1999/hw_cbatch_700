@@ -19,6 +19,5 @@ void range(int s, int e)
 void main()
 {
     range(1, 5);
-
     range(1, 10);
 }
