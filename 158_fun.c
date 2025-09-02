@@ -21,6 +21,5 @@ void main()
 {
     printf("sum 1 to 10 = %d\n", number_sum(1, 10));
     printf("sum 1 to 10 = %d\n", number_sum(15, 20));
-
     printf("factorial of 5 = %d ", factorial(5));
 }
