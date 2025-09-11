@@ -1,4 +1,4 @@
-// wap to take array element from user and display sum of all elements.
+// wap to take array element from user and display even elements.
 #include <stdio.h>
 void main()
 {
