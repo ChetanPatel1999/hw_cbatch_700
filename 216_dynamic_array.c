@@ -4,15 +4,15 @@
 void main()
 {
     int i, n;
-    int *ptr, *temp; // 400
+    float *ptr, *temp; // 400
     printf("enter  dynamic array size : ");
     scanf("%d", &n); // 8
-    ptr = (int *)malloc(n * sizeof(int));
+    ptr = (float *)malloc(n * sizeof(float));
     temp = ptr;
     printf("enter array element : ");
     for (i = 0; i < n; i++)
     {
-        scanf("%d", ptr);
+        scanf("%f", ptr);
         ptr++; // 420
     }
 
@@ -20,18 +20,18 @@ void main()
     printf("array elements are : ");
     for (i = 0; i < n; i++) // 5
     {
-        printf("%d ", *ptr); //
-        ptr++;               // 424
+        printf("%.1f ", *ptr); //
+        ptr++;                 // 424
     }
 
     ptr = temp;
-    int sum = 0;
+    float sum = 0;
     for (i = 0; i < n; i++)
     {
         sum = sum + *ptr;
         ptr++;
     }
-    printf("\nsum of all array elemenet : %d ", sum);
+    printf("\nsum of all array elemenet : %.2f ", sum);
     ptr = temp;
     free(ptr);
 }

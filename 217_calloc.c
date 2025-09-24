@@ -7,7 +7,7 @@ void main()
     int *ptr, *temp; // 400
     printf("enter  dynamic array size : ");
     scanf("%d", &n); // 8
-    ptr = (int *)malloc(n * sizeof(int));
+    ptr = (int *)calloc(n, sizeof(int));
     temp = ptr;
     printf("enter array element : ");
     for (i = 0; i < n; i++)
