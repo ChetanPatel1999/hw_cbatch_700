@@ -6,9 +6,10 @@ struct pen
     int price;     // data member
     float rating;  // data member
 };
+typedef struct pen pen;
 void main()
 {
-    struct pen p1, p2 = {.price = 7, .rating = 2.6, .name = "goldex"}, p3 = {"hauser", 10, 4.7};
+    pen p1, p2 = {.price = 7, .rating = 2.6, .name = "goldex"}, p3 = {"hauser", 10, 4.7};
     strcpy(p1.name, "cello");
     p1.price = 5;
     p1.rating = 3.5;
