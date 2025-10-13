@@ -7,10 +7,10 @@
 void main()
 {
     int num, a, b, c, p;
-
+    printf("<----- welcome to my calculator ----->\n");
     do
     {
-        printf("<----- welcome to my calculator ----->\n");
+
         printf("Press 1 to addition\n");
         printf("Press 2 to subtraction\n");
         printf("Press 3 to multiplication\n");

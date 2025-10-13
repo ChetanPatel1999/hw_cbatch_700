@@ -1,6 +1,6 @@
-factorila of 4 = 24
-factorila of 5 = 120
-factorila of 6 = 720
-factorila of 7 = 5040
-factorila of 8 = 40320
-factorila of 3 = 6
+factorial of 4 = 24
+factorial of 5 = 120
+factorial of 6 = 720
+factorial of 7 = 5040
+factorial of 8 = 40320
+factorial of 3 = 6
